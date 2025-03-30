@@ -13,7 +13,7 @@ tripled_and_sum_odds_streamed =
   |> Enum.sum()
 
 three_lines =
-  "./data.txt"
+  "#{File.cwd!()}/data.txt"
   |> File.stream!()
   |> Enum.take(3)
 
