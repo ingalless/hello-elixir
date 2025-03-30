@@ -8,7 +8,7 @@ My idea is to use this language to implement a simple multiplayer party game. Th
 ## Running
 
 All the samples expect to be ran from the root of the project:
-```sh
+```bash
 elixir lib/enum.exs
 ```
 
